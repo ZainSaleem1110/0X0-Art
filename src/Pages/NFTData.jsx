@@ -77,7 +77,7 @@ function NFTData() {
                         Claim printed artwork
                     </button>
                 </div>
-                <div className="max-w-[1080px] mt-12 md:px-0 px-5">
+                <div className="max-w-[1080px] mt-12 lg:pl-0 md:pl-20 lg:pr-20 pr-5">
                     <p className="text-[32px] text-[#1C1139]">How 0x0.Art NFT works?</p>
                     <p className="mt-8">Sed eu quam nec eros cursus rhoncus ut a sapien. Nunc condimentum nulla tempor, auctor nibh non, sagittis purus. In hac habitasse platea dictumst. Mauris in erat nibh. Fusce lacus nulla, dignissim vel aliquam lacinia, imperdiet in leo. Etiam varius massa nulla, vitae sagittis neque molestie eget. Donec ultricies ante leo, at condimentum nunc egestas et. Curabitur viverra eu diam aliquet pulvinar. Morbi vitae sollicitudin velit. Donec ac ultricies est, et dignissim lacus. Suspendisse mollis, leo in consectetur mattis, lacus enim convallis tellus, quis dignissim ligula diam vitae elit. Nulla facilisi. Vivamus in vestibulum quam.</p>
                     <p>Sed eu quam nec eros cursus rhoncus ut a sapien. Nunc condimentum nulla tempor, auctor nibh non, sagittis purus. In hac habitasse platea dictumst. Mauris in erat nibh. Fusce lacus nulla, dignissim vel aliquam lacinia, imperdiet in leo. Etiam varius massa nulla, vitae sagittis neque molestie eget. Donec ultricies ante leo, at condimentum nunc egestas et. Curabitur viverra eu diam aliquet pulvinar. Morbi vitae sollicitudin velit. Donec ac ultricies est, et dignissim lacus. Suspendisse mollis, leo in consectetur mattis, lacus enim convallis tellus, quis dignissim ligula diam vitae elit. Nulla facilisi. Vivamus in vestibulum quam.</p>
@@ -91,7 +91,8 @@ function NFTData() {
                         </button>
                     </div>
                     <div className="flex flex-wrap gap-y-5 md:justify-between justify-center mt-5 mb-10">
-                        <div className="w-[246px] h-[338px] rounded-lg border border-[black]">
+                        <div className="w-[246px] h-[338px] rounded-lg border border-[black]
+                        bg-white">
                             <img src={OpenseaImg1} className="w-[244px] h-[246px]" alt="" />
                             <div className="px-2 py-3">
                                 <p className="text-[#333333]">0X0.ART NFT #113</p>
@@ -102,7 +103,8 @@ function NFTData() {
                                 <p className="text-[12px] text-[#828282] mt-1">Artist: <span className="text-[#333333] mt-1">Xavier Iturralde</span></p>
                             </div>
                         </div>
-                        <div className="w-[246px] h-[338px] rounded-lg border border-[black]">
+                        <div className="w-[246px] h-[338px] rounded-lg border border-[black]
+                        bg-white">
                             <img src={OpenseaImg2} className="w-[244px] h-[246px]" alt="" />
                             <div className="px-2 py-3">
                                 <p className="text-[#333333]">0X0.ART NFT #113</p>
@@ -112,7 +114,8 @@ function NFTData() {
                                 </p>
                             </div>
                         </div>
-                        <div className="w-[246px] h-[338px] rounded-lg border border-[black]">
+                        <div className="w-[246px] h-[338px] rounded-lg border border-[black]
+                        bg-white">
                             <img src={OpenseaImg3} className="w-[244px] h-[246px]" alt="" />
                             <div className="px-2 py-3">
                                 <p className="text-[#333333]">0X0.ART NFT #113</p>
@@ -123,7 +126,8 @@ function NFTData() {
                                 <p className="text-[12px] text-[#828282] mt-1">Artist: <span className="text-[#333333] mt-1">Xavier Iturralde</span></p>
                             </div>
                         </div>
-                        <div className="w-[246px] h-[338px] rounded-lg border border-[black]">
+                        <div className="w-[246px] h-[338px] rounded-lg border border-[black]
+                        bg-white">
                             <img src={OpenseaImg4} className="w-[244px] h-[246px]" alt="" />
                             <div className="px-2 py-3">
                                 <p className="text-[#333333]">0X0.ART NFT #113</p>

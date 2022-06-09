@@ -34,7 +34,7 @@ function Navbar() {
             <div className="xl:w-[1440px] w-full h-[81px] flex justify-center">
                 <div className="flex justify-between items-center border-b border-[#F2F2F2] h-[81px] xl:w-[85%] sm:w-[75%] w-[90%]">
                     <Link to="/">
-                        <img src={Logo} alt="" />
+                        <img src={Logo} alt="" onClick={handleCloseMenu} />
                     </Link>
                     <div className="flex items-center gap-x-3">
                         <button className="sm:w-[149px] w-[34px] sm:bg-white sm:h-[44px] h-[34px] rounded-md border border-[#9F00FF]  bg-[#9F00FF] flex justify-center items-center" onClick={handleSidebar}>
@@ -56,7 +56,7 @@ function Navbar() {
                     <div className="xl:w-[1440px] w-full h-[81px] w-full flex justify-center">
                         <div className="flex justify-between items-center border-b border-[#F2F2F2] h-[81px] xl:w-[85%] sm:w-[75%] w-[90%]">
                             <Link to="/">
-                                <img src={Logo} alt="" />
+                                <img src={Logo} alt="" onClick={handleCloseMenu} />
                             </Link>
                             <div className="flex items-center gap-x-3">
                                 <button className="sm:w-[149px] w-[34px] sm:bg-white sm:h-[44px] h-[34px] rounded-md border border-[#9F00FF]  bg-[#9F00FF] flex justify-center items-center" onClick={handleSidebar}>
@@ -69,15 +69,19 @@ function Navbar() {
                             </div>
                         </div>
                     </div>
-                    <div className='flex flex-col items-center mt-4'>
-                        <div>
-                            <h1 className='sm:text-[64px] text-[32px] text-[#9F00FF]'>Lorem ipsum</h1>
-                            <h1 className='sm:text-[64px] text-[32px]'>Lorem</h1>
-                            <h1 className='sm:text-[64px] text-[32px]'>Lorem</h1>
-                            <h1 className='sm:text-[64px] text-[32px]'>Lorem</h1>
-                            <h1 className='sm:text-[64px] text-[32px]'>Lorem</h1>
-                            <h1 className='sm:text-[64px] text-[32px]'>Lorem</h1>
-                            <h1 className='sm:text-[64px] text-[32px]'>Lorem</h1>
+                    <div className='flex flex-col items-center mt-4 w-[100%]'>
+                        <div className="flex flex-col w-[60%]">
+                            <a href="#" className='sm:text-[32px] text-[32px] text-[#9F00FF]'>Marketplace</a>
+                            <a href="#" className='sm:text-[32px] text-[32px]'>My account</a>
+                            <a href="#" className='sm:text-[32px] text-[32px]'>Favourites</a>
+                            <a href="#" className='sm:text-[32px] text-[32px]'>AI drawing tools</a>
+                            <a href="#" className='sm:text-[32px] text-[32px]'>NFT printing services</a>
+                            <a href="#" className='sm:text-[32px] text-[32px]'>About us</a>
+                            <a href="#" className='sm:text-[32px] text-[32px]'>Blog</a>
+                            <button className="w-[300px] sm:bg-white sm:h-[44px] h-[34px] rounded-md border border-[#9F00FF]  bg-[#9F00FF] justify-center items-center mt-4 md:hidden flex" onClick={handleSidebar}>
+                                <span className="sm:flex hidden">Connect Wallet</span>
+                                <BsWallet2 className="flex sm:hidden text-white" />
+                            </button>
                         </div>
                     </div>
                     <div className='flex justify-center lg:w-[30%] sm:w-[50%] w-[80%]'>
@@ -89,11 +93,11 @@ function Navbar() {
                     </div>
                 </div>
             )}
-            <div className="w-0 overflow-x-hidden connectMeta absolute bottom-0 right-0 h-[91vh] 2xl:bg-[transparent] sm:bg-[#1c11394d] bg-[transparent] z-50 flex">
+            <div className="w-0 overflow-x-hidden connectMeta absolute top-0 right-0 h-[100vh] 2xl:bg-[transparent] sm:bg-[#1c11394d] bg-[transparent] z-50 flex">
                 <div className='2xl:w-[70%] md:w-[60%] sm:w-[30%] w-[0%] h-full' onClick={handleSidebarClose}></div>
                 <div className='h-full bg-white xl:w-[643px] w-full 2xl:border-2 border-t-2 px-7 sm:pt-12  pt-5 overflow-x-hidden'>
                     <div className='sm:w-[643px] w-full'>
-                        <button className='flex justify-end w-[100%] sm:hidden 2xl:flex 2xl:pr-24' onClick={handleSidebarClose}>X</button>
+                        <button className='flex justify-end w-[100%] sm:pr-28 text-[black]' onClick={handleSidebarClose}>X</button>
                         <p className='text-[#1C1139]'>Connect  your wallet</p>
                         <p className='text-[#828282] mt-1'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                         <p className='text-[#828282] mt-3'>Fermentum, blandit nulla cursus aliquet feugiat.</p>

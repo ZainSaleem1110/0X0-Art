@@ -15,7 +15,7 @@ const FooterPayment = [Footer1, Footer2, Footer3]
 function Footer() {
     return (
         <div className="w-full flex justify-center">
-        <div className="w-full xl:w-[1440px] py-7 xl:pl-0 md:pl-28 pl-10 flex">
+        <div className="w-full xl:w-[1440px] py-7 xl:pl-0 md:pl-28 pl-12 flex">
             <div className="xl:w-[100%] md:w-[973px] w-[100%] grid md:grid-cols-4 grid-cols-2 md:gap-y-0 gap-y-10 xl:justify-items-center">
                 <div className="md:w-[150px]">
                     <p className="text-[12px]">Menu</p>

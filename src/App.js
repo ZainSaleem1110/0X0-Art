@@ -24,7 +24,7 @@ function App() {
                     <Route path="/poolData" element={<PoolData />} />
                 </Routes>
                 <Footer />
-            <div className="absolute top-0 right-0 -z-10 lg:flex hidden">
+            <div className="absolute top-0 right-0 -z-10 lg:flex hidden h-[100vh]">
                 <img src={BgMain} className="" alt="" />
             </div>
         </div>

@@ -70,7 +70,7 @@ export const data = {
 };
 
 function App() {
-  return <div className='border border-[black] lg:w-[95%] rounded-lg bg-white'>
+  return <div className='border border-[black] lg:w-[940px] w-[95%] rounded-lg bg-white'>
     <Line options={options} data={data} />
   </div>;
 }
