@@ -10,8 +10,8 @@ import Icon1 from '../assets/footer1.svg'
 
 function NFTData() {
     return (
-        <div className="py-5 max-w-[1440px] xl:px-0 px-5">
-            <div className="xl:w-[100%] w-[90%]">
+        <div className="py-5 max-w-[1440px] xl:px-0 px-5 flex justify-center">
+            <div className="xl:w-[85%] w-[80%]">
                 <p className="sm:text-[64px] text-[40px] w-full flex text-[#1C1139]">NFT <span className="text-[18px] text-[#5B546F] sm:mt-6 mt-2">Beta</span> Data</p>
                 <div className="flex mt-4 xl:w-[1250px] w-full md:flex-row flex-col md:justify-between md:items-start items-center ">
                     <div className="sm:w-[536px] w-full rounded-lg border border-[black] mt-9">
@@ -77,12 +77,12 @@ function NFTData() {
                         Claim printed artwork
                     </button>
                 </div>
-                <div className="max-w-[1080px] mt-12 lg:pl-0 md:pl-20 lg:pr-20 pr-5">
+                <div className="mt-12">
                     <p className="text-[32px] text-[#1C1139]">How 0x0.Art NFT works?</p>
                     <p className="mt-8">Sed eu quam nec eros cursus rhoncus ut a sapien. Nunc condimentum nulla tempor, auctor nibh non, sagittis purus. In hac habitasse platea dictumst. Mauris in erat nibh. Fusce lacus nulla, dignissim vel aliquam lacinia, imperdiet in leo. Etiam varius massa nulla, vitae sagittis neque molestie eget. Donec ultricies ante leo, at condimentum nunc egestas et. Curabitur viverra eu diam aliquet pulvinar. Morbi vitae sollicitudin velit. Donec ac ultricies est, et dignissim lacus. Suspendisse mollis, leo in consectetur mattis, lacus enim convallis tellus, quis dignissim ligula diam vitae elit. Nulla facilisi. Vivamus in vestibulum quam.</p>
                     <p>Sed eu quam nec eros cursus rhoncus ut a sapien. Nunc condimentum nulla tempor, auctor nibh non, sagittis purus. In hac habitasse platea dictumst. Mauris in erat nibh. Fusce lacus nulla, dignissim vel aliquam lacinia, imperdiet in leo. Etiam varius massa nulla, vitae sagittis neque molestie eget. Donec ultricies ante leo, at condimentum nunc egestas et. Curabitur viverra eu diam aliquet pulvinar. Morbi vitae sollicitudin velit. Donec ac ultricies est, et dignissim lacus. Suspendisse mollis, leo in consectetur mattis, lacus enim convallis tellus, quis dignissim ligula diam vitae elit. Nulla facilisi. Vivamus in vestibulum quam.</p>
                 </div>
-                <div className=" w-[100%] mt-8 sm:px-12">
+                <div className=" w-[100%] mt-8">
                     <div className="flex sm:flex-row flex-col items-center justify-between">
                         <p className="text-[23px]">Some 0x0.art NFT</p>
                         <button className="w-[224px] h-[44px] border border-[#9F00FF] flex items-center justify-center rounded-lg sm:mt-0 mt-5 bg-white">

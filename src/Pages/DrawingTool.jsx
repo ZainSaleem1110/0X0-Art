@@ -16,24 +16,24 @@ function DrawingTool() {
                 <Link to="/" className="flex items-center text-[#1C1139]"><BsArrowLeftShort /> Back</Link>
                 <p className="sm:text-[64px] text-[40px] mt-4 flex text-[#1C1139]">AI Drawing Tool<span className="text-[18px] text-[#5B546F] sm:mt-6 mt-2">Beta</span></p>
                 <div className="flex md:flex-row flex-col justify-between mt-8">
-                    <div className="xl:w-[45%] md:w-[55%] w-[100%] xl:h-[800px] md:h-[700px] sm:h-[500px] h-[700px] grid md:grid-cols-2 sm:grid-cols-3 grid-cols-2 py-8 sm:justify-items-start justify-items-center">
-                        <div className="xl:w-[204px] sm:w-[190px] w-[170px] xl:h-[204px] sm:h-[190px] h-[170px]">
+                    <div className="xl:w-[45%] md:w-[55%] w-[100%] xl:h-[800px] md:h-[700px] sm:h-[500px] h-[530px] grid md:grid-cols-2 sm:grid-cols-3 grid-cols-2 py-8 sm:justify-items-start justify-items-center">
+                        <div className="xl:w-[204px] sm:w-[190px] w-[140px] xl:h-[204px] sm:h-[190px] h-[140px]">
                             <img src={Drawing1} className="rounded-lg" alt="" />
                         </div>
-                        <div className="xl:w-[204px] sm:w-[190px] w-[170px] xl:h-[204px] sm:h-[190px] h-[170px]">
+                        <div className="xl:w-[204px] sm:w-[190px] w-[140px] xl:h-[204px] sm:h-[190px] h-[140px]">
                             <img src={Drawing2} className="rounded-lg" alt="" />
                         </div>
-                        <div className="xl:w-[204px] sm:w-[190px] w-[170px] xl:h-[204px] sm:h-[190px] h-[170px]">
+                        <div className="xl:w-[204px] sm:w-[190px] w-[140px] xl:h-[204px] sm:h-[190px] h-[140px]">
                             <img src={Drawing3} className="rounded-lg border border-[#FFE302]" alt="" />
                         </div>
-                        <div className="xl:w-[204px] sm:w-[190px] w-[170px] xl:h-[204px] sm:h-[190px] h-[170px] relative">
+                        <div className="xl:w-[204px] sm:w-[190px] w-[140px] xl:h-[204px] sm:h-[190px] h-[140px] relative">
                             <img src={Drawing4} className="rounded-lg" alt="" />
                             <div className="w-[30px] h-[30px] bg-[#FFE302] absolute bottom-5 right-5 rounded-md flex justify-center items-center"><AiOutlineCheck /></div>
                         </div>
-                        <div className="xl:w-[204px] sm:w-[190px] w-[170px] xl:h-[204px] sm:h-[190px] h-[170px]">
+                        <div className="xl:w-[204px] sm:w-[190px] w-[140px] xl:h-[204px] sm:h-[190px] h-[140px]">
                             <img src={Drawing5} className="rounded-lg" alt="" />
                         </div>
-                        <div className="xl:w-[204px] sm:w-[190px] w-[170px] xl:h-[204px] sm:h-[190px] h-[170px]">
+                        <div className="xl:w-[204px] sm:w-[190px] w-[140px] xl:h-[204px] sm:h-[190px] h-[140px]">
                             <img src={Drawing6} className="rounded-lg" alt="" />
                         </div>
                     </div>
