@@ -32,7 +32,7 @@ function Navbar() {
     return (
         <>
             <div className="xl:w-[1440px] w-full h-[81px] flex justify-center">
-                <div className="flex justify-between items-center border-b border-[#F2F2F2] h-[81px] xl:w-[85%] sm:w-[75%] w-[90%]">
+                <div className="flex justify-between items-center border-b border-[#F2F2F2] h-[81px] xl:w-[75%] sm:w-[75%] w-[90%]">
                     <Link to="/">
                         <img src={Logo} alt="" onClick={handleCloseMenu} />
                     </Link>
@@ -70,14 +70,14 @@ function Navbar() {
                         </div>
                     </div>
                     <div className='flex flex-col items-center mt-4 w-[100%]'>
-                        <div className="flex flex-col w-[60%]">
-                            <a href="#" className='sm:text-[32px] text-[32px] text-[#9F00FF]'>Marketplace</a>
-                            <a href="#" className='sm:text-[32px] text-[32px]'>My account</a>
-                            <a href="#" className='sm:text-[32px] text-[32px]'>Favourites</a>
-                            <a href="#" className='sm:text-[32px] text-[32px]'>AI drawing tools</a>
-                            <a href="#" className='sm:text-[32px] text-[32px]'>NFT printing services</a>
-                            <a href="#" className='sm:text-[32px] text-[32px]'>About us</a>
-                            <a href="#" className='sm:text-[32px] text-[32px]'>Blog</a>
+                        <div className="flex flex-col w-[45%]">
+                            <a href="#" className='text-[32px] text-[#9F00FF]'>Marketplace</a>
+                            <a href="#" className='text-[32px]'>My account</a>
+                            <a href="#" className='text-[32px]'>Favourites</a>
+                            <a href="#" className='text-[32px]'>AI drawing tools</a>
+                            <a href="#" className='text-[32px]'>NFT printing services</a>
+                            <a href="#" className='text-[32px]'>About us</a>
+                            <a href="#" className='text-[32px]'>Blog</a>
                             <button className="w-[300px] sm:bg-white sm:h-[44px] h-[34px] rounded-md border border-[#9F00FF]  bg-[#9F00FF] justify-center items-center mt-4 md:hidden flex" onClick={handleSidebar}>
                                 <span className="sm:flex hidden">Connect Wallet</span>
                                 <BsWallet2 className="flex sm:hidden text-white" />

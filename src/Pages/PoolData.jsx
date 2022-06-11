@@ -11,10 +11,10 @@ import Icon3 from '../assets/footer3.svg'
 
 function PoolData() {
     return (
-        <div className="py-5 max-w-[1440px] xl:px-0 px-5">
-            <div className="xl:w-[100%] w-[90%]">
-                <p className="sm:text-[64px] text-[40px] w-full flex text-[#1C1139]  lg:pl-0 md:pl-20 sm:pl-12">Pool Data</p>
-                <div className="lg:pl-0 md:pl-20 sm:pl-12">
+        <div className="py-5 max-w-[1440px] flex justify-center">
+            <div className="xl:w-[85%] w-[80%]">
+                <p className="sm:text-[64px] text-[40px] w-full flex text-[#1C1139]">Pool Data</p>
+                <div className="">
                     <div>
                         <h1 className='text-[32px]'>Statistic</h1>
                         <div className='w-[193px] h-[34px] flex rounded-lg border items-center my-8 pr-2'>
@@ -24,9 +24,9 @@ function PoolData() {
                         </div>
                         <Graph />
                     </div>
-                    <div className='w-[100%] overflow-x-hidden lg:flex flex-col hidden mt-7'>
+                    <div className='w-[100%] overflow-x-hidden z-20 lg:flex flex-col hidden mt-7'>
                         <h1 className='text-[32px]'>Balances</h1>
-                        <div className='lg:w-[930px] overflow-x-auto rounded-lg border border-black bg-white'>
+                        <div className='w-full overflow-x-auto rounded-lg border border-black bg-white'>
                             <div className="grid grid-cols-5 justify-items-center items-center px-3 w-full h-[44px] border-b border-[black] font-semibold md:text-[16px] text-[12px]">
                                 <p>Currency</p>
                                 <p>Total received</p>
@@ -72,8 +72,8 @@ function PoolData() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex mt-4 xl:w-[1250px] w-full lg:flex-row flex-col gap-x-8 items-center ">
-                        <div className="sm:w-[536px] w-full rounded-lg border border-[black] mt-9">
+                    <div className="flex mt-4 w-full lg:flex-row flex-col gap-x-8 items-center ">
+                        <div className=" w-full rounded-lg border border-[black] mt-9">
                             <div className="flex justify-between items-center px-3 w-full h-[44px] border-b border-[black] font-semibold">
                                 <p className="">Name</p>
                                 <p>The 0x0.Art Platform</p>
@@ -102,23 +102,23 @@ function PoolData() {
                                 </div>
                             </div>
                         </div>
-                        <div className="flex flex-col justify-center lg:w-[379px] sm:w-[536px] w-full lg:mt-0 mt-4">
-                            <div className="h-[60px] lg:w-[379px] w-full border border-[black] bg-white rounded-lg flex flex-col justify-center px-5">
+                        <div className="flex flex-col justify-center xl:w-[379px] w-full lg:mt-0 mt-4">
+                            <div className="h-[60px] xl:w-[379px] w-full border border-[black] bg-white rounded-lg flex flex-col justify-center px-5">
                                 <p className="text-[#5B546F] text-[12px]">Token ID, Owner address</p>
                                 <p className="md:text-[14px] text-[12px] text-[#18224C]">0x8BF0AA44B7ABFC54F7e87fC9294695c4D7a5EFca</p>
                             </div>
-                            <button className="h-[44px] w-full text-white rounded-lg bg-[#9F00FF] flex justify-center items-center mt-3">
+                            <button className="h-[44px] xl:w-[379px] w-full text-white rounded-lg bg-[#9F00FF] flex justify-center items-center mt-3">
                                 Find
                                 <BsArrowRightShort />
                             </button>
                         </div>
                     </div>
-                    <div className="max-w-[1250px] mt-12 lg:pl-0 md:pl-20 lg:pr-48 pr-5">
+                    <div className="mt-12">
                         <p className="text-[32px] text-[#1C1139]">How 0x0.Art NFT works?</p>
                         <p className="mt-8">Sed eu quam nec eros cursus rhoncus ut a sapien. Nunc condimentum nulla tempor, auctor nibh non, sagittis purus. In hac habitasse platea dictumst. Mauris in erat nibh. Fusce lacus nulla, dignissim vel aliquam lacinia, imperdiet in leo. Etiam varius massa nulla, vitae sagittis neque molestie eget. Donec ultricies ante leo, at condimentum nunc egestas et. Curabitur viverra eu diam aliquet pulvinar. Morbi vitae sollicitudin velit. Donec ac ultricies est, et dignissim lacus. Suspendisse mollis, leo in consectetur mattis, lacus enim convallis tellus, quis dignissim ligula diam vitae elit. Nulla facilisi. Vivamus in vestibulum quam.</p>
                         <p>Sed eu quam nec eros cursus rhoncus ut a sapien. Nunc condimentum nulla tempor, auctor nibh non, sagittis purus. In hac habitasse platea dictumst. Mauris in erat nibh. Fusce lacus nulla, dignissim vel aliquam lacinia, imperdiet in leo. Etiam varius massa nulla, vitae sagittis neque molestie eget. Donec ultricies ante leo, at condimentum nunc egestas et. Curabitur viverra eu diam aliquet pulvinar. Morbi vitae sollicitudin velit. Donec ac ultricies est, et dignissim lacus. Suspendisse mollis, leo in consectetur mattis, lacus enim convallis tellus, quis dignissim ligula diam vitae elit. Nulla facilisi. Vivamus in vestibulum quam.</p>
                     </div>
-                    <div className=" w-[100%] mt-8 sm:px-12">
+                    <div className=" w-[100%] mt-8">
                         <div className="flex sm:flex-row flex-col items-center justify-between">
                             <p className="text-[23px]">Some 0x0.art NFT</p>
                             <button className="w-[224px] h-[44px] border border-[#9F00FF] flex items-center justify-center rounded-lg sm:mt-0 mt-5 bg-white">
@@ -126,7 +126,7 @@ function PoolData() {
                                 <BsArrowRightShort />
                             </button>
                         </div>
-                        <div className="flex flex-wrap gap-y-5 md:justify-between justify-center mt-5 mb-10">
+                        <div className="flex flex-wrap gap-y-5 sm:justify-between justify-center mt-5 mb-10">
                             <div className="w-[246px] h-[338px] rounded-lg border border-[black] bg-white">
                                 <img src={OpenseaImg1} className="w-[244px] h-[246px]" alt="" />
                                 <div className="px-2 py-3">
