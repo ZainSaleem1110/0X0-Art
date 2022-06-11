@@ -5,7 +5,7 @@ import Footer1 from '../assets/footer1.svg'
 import Footer2 from '../assets/footer2.svg'
 import Footer3 from '../assets/footer3.svg'
 import UploadImg from '../assets/uploadImg.svg'
-import { useNavigate } from 'react-router'
+import { useNavigate } from 'react-router-dom'
 
 function MintContact() {
     const navigate = useNavigate()
