@@ -14,7 +14,7 @@ function App() {
     return (
         <div className="h-[100vh] overflow-hidden relative">
         <div className="w-full h-[100vh] flex flex-col justify-between xl:items-center items-start overflow-y-auto overflow-x-hidden">
-                <Navbar />
+                 <Navbar />
                 <Routes>
                     <Route path="/" element={<Landing />} />
                     <Route path="/drawingTool" element={<DrawingTool />} />
