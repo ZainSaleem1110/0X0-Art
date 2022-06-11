@@ -3,8 +3,8 @@ import { FaFireAlt } from 'react-icons/fa'
 
 function Landing() {
     return (
-        <div className="xl:w-[1440px] 2xl:h-[80vh] xl:h-[65vh] w-full">
-            <div className="sm:w-[801px] sm:px-28 px-10 py-20">
+        <div className="xl:w-[1440px] 2xl:h-[80vh] xl:h-[65vh] w-full flex justify-center">
+            <div className="w-[80%] py-20">
                 <div className="flex flex-col justify-between">
                     <div className="sm:text-[48px] text-[34px]">
                         Connect your wallet <br /> before creating
